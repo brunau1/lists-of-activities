@@ -1,9 +1,12 @@
 <style>
-    body{
+    #body{
         background: black;
         color: green;
+        padding: 2em;
     }
 </style>
+<div id="body">
+
 # Descrição das atividades: 
 <h3 style="text-align:justify">1. Faça um programa que leia um número inteiro n e forneça o resultado das séries:</h3>
 
@@ -37,3 +40,4 @@ esquerda, como, por exemplo, 1221, 9889, 1001 etc.</h3>
 elementos são múltiplos de 3.</h3>
 <h3 style="text-align:justify">10. Faça um programa que receba uma matriz quadrada de ordem 3 e chame uma função que seja capaz de retornar um
 vetor resultante somente com os elementos que estão acima e abaixo de sua diagonal principal.</h3>
+</div>

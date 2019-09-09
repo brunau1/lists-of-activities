@@ -8,7 +8,7 @@ S = 1/2 + 2/3 + 3/4 + ... + (n-1)/n
 ```
 S = 100 - 1 + 2 - 3 + 4 - 5 ... + n
 ```
-<h3 style="text-align:justify; color: blue">2. Tem-se um conjunto de dados contendo a altura e o sexo (M ou F) de 15 pessoas. Faça um programa que calcule e
+<h3 style="text-align:justify">2. Tem-se um conjunto de dados contendo a altura e o sexo (M ou F) de 15 pessoas. Faça um programa que calcule e
 mostre:</h3>
 <p>a ) A maior e menor altura do grupo</p>
 <p>b ) A média de altura das mulheres</p>

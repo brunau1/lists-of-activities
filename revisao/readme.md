@@ -1,3 +1,9 @@
+<style>
+    body{
+        background: black;
+        color: green;
+    }
+</style>
 # Descrição das atividades: 
 <h3 style="text-align:justify">1. Faça um programa que leia um número inteiro n e forneça o resultado das séries:</h3>
 

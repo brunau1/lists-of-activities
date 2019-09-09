@@ -1,8 +1,10 @@
 # Descrição das atividades: 
 <h3 style="text-align:justify">1. Faça um programa que leia um número inteiro n e forneça o resultado das séries:</h3>
+
 ```
 S = 1/2 + 2/3 + 3/4 + ... + (n-1)/n
 ```
+
 ```
 S = 100 - 1 + 2 - 3 + 4 - 5 ... + n
 ```

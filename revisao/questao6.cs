@@ -7,7 +7,7 @@ namespace Application
         static void Main(string[] args)
         {
             int[] v1, v2, resultante;
-            int contElements = 0, cont = 0;
+            int pos = 0, cont = 0;
             v1 = new int[10];
             v2 = new int[10];
             resultante = new int[20];
@@ -30,38 +30,36 @@ namespace Application
             for (int i = 0; i < 10; i++)
                 Console.Write("   " + v2[i]);
 
-            for (int i = 0; i < 20; i++)
+            for (int i = 0; i < 10; i++)
             {
-                if (i < 10)
+                for (int j = 0; j < 10; j++)
+                    if (v1[i] != v2[j])
+                        cont++;
+                if (cont == 10)
                 {
-                    for (int j = 0; j < 10; j++)
-                        if (v1[i] != v2[j])
-                            cont++;
-                    if (cont == 10)
-                    {
-                        resultante[i] = v1[i];
-                        contElements++;
-                    }
-                    cont = 0;
+                    resultante[pos] = v1[i];
+                    pos++;
                 }
-                if (i >= 10 && i < 20)
+                cont = 0;
+            }
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                    if (v2[i] != v1[j])
+                        cont++;
+                if (cont == 10)
                 {
-                    for (int j = 0; j < 10; j++)
-                        if (v2[i - 10] != v1[j])
-                            cont++;
-                    if (cont == 10)
-                    {
-                        resultante[i] = v2[i - 10];
-                        contElements++;
-                    }
-                    cont = 0;
+                    resultante[pos] = v2[i];
+                    pos++;
                 }
+                cont = 0;
             }
 
             Console.WriteLine();
-            Console.Write("resultante: ");
-            for (int i = 0; i < contElements; i++)
+            Console.Write("Resultante:   ");
+            for (int i = 0; i < pos; i++)
                 Console.Write("   " + resultante[i]);
+
             Console.ReadKey();
         }
     }

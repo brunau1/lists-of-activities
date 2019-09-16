@@ -10,7 +10,6 @@ namespace Application
     {
         public double capacidadeCarga { get; set; }
 
-
         public Carga()
         {
             lerDados();

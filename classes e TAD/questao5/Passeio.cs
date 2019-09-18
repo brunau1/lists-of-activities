@@ -32,7 +32,7 @@ namespace Application
         }
         public double calculaValorLocacao()
         {
-            double valorDeLocacao = valorKmRodado * (kmInicial - kmInicial);
+            double valorDeLocacao = valorKmRodado * (kmFinal - kmInicial);
             return valorDeLocacao;
         }
     }

@@ -24,7 +24,7 @@ namespace Application
             presidente = Console.ReadLine();
             Console.Write("Informe o tecnico do time: ");
             tecnico = Console.ReadLine();
-            Console.Write("informe a data de fundação do time do time: ");
+            Console.Write("informe a data de fundação do time: ");
             dataFundacao = Console.ReadLine();
             Console.Write("informe a cidade do time: ");
             cidade = Console.ReadLine();
